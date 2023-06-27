@@ -1,0 +1,35 @@
+{
+  "name": "distedavim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "module": "node src/createModule.js",
+    "start": "node src/app.js",
+    "lint:fix": "eslint --fix ./src/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.37.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "iyzipay": "^2.0.48",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.3",
+    "multer": "^1.4.5-lts.1",
+    "winston": "^3.8.2",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "nodemon": "^2.0.22"
+  }
+}
